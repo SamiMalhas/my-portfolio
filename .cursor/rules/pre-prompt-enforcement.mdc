@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+**Mandatory Pre-Prompt Rule Enforcement**
+
+Before processing any prompt or generating any code, ensure that you have reviewed and are in full compliance with all relevant Cursor rules—including both global guidelines and any applicable project rules.
+
+**Checklist before proceeding:**
+- Verify the **Project Overview** guidelines (project purpose, key features, and tech stack).
+- Confirm that **Documentation Sync Guidelines** are met (every code change must have a corresponding documentation update in the `/docs` folder).
+- Ensure the **Folder Structure and File Naming** conventions are followed.
+- Adhere to all **Development Best Practices** regarding code clarity, maintainability, reusability, code modularity and modular documentation.
+
+**Action Required:**
+- Pause and re-evaluate your prompt or code if any of the guidelines above are not fully met.
+
+
+This rule is mandatory and applies to every prompt or code generation within the IDE.
