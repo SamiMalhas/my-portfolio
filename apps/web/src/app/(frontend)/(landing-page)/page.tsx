@@ -1,7 +1,11 @@
 import React from 'react'
 
+import HeroSection from './sections/hero'
+
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <main>
+      <HeroSection />
+    </main>
   )
 }
