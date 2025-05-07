@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '@repo/ui/components/ui/button'
+import { Button } from '@repo/ui/button'
 
 import HeroSection from './sections/hero'
 
@@ -7,9 +7,7 @@ export default function HomePage() {
   return (
     <main>
       <HeroSection />
-      <div style={{ padding: '20px' }}>
-        <Button>Click Me</Button>
-      </div>
+      <Button>Click Me</Button>
     </main>
   )
 }
