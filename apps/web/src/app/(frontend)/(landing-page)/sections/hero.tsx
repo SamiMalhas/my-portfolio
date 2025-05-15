@@ -1,10 +1,14 @@
 import React from 'react'
 import HeroText from '../components/hero-text'
+import ParallexBg from '../components/parallex-bg'
 
-export default function HeroSection() {
+function HeroSection() {
   return (
-    <section className="flex items-start justify-center h-screen min-h-screen overflow-hidden md:items-center">
+    <div>
       <HeroText />
-    </section>
+      <ParallexBg />
+    </div>
   )
 }
+
+export default HeroSection

@@ -13,6 +13,7 @@ Before processing any prompt or generating any code, ensure that you have review
 - Ensure the **Folder Structure and File Naming** conventions are followed.
 - Adhere to all **Development Best Practices** regarding code clarity, maintainability, reusability, code modularity and modular documentation.
 - use the related MCP when needed.
+- the theme of the project is neobrutalism.
 
 ## Action Required:
 - Pause and re-evaluate your prompt or code if any of the guidelines above are not fully met.

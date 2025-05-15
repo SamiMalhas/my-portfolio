@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "supabase start"
+    "dev": "supabase start",
+    "stop": "supabase stop"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "supabase": "^2.22.6"
+    "supabase": "^2.22.12"
   }
 }
