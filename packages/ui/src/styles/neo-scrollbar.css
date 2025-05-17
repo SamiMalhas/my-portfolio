@@ -1,0 +1,53 @@
+/* Neobrutalist Scrollbar Styles */
+
+/* Global scrollbar styles */
+::-webkit-scrollbar {
+  width: 20px; /* Adjust width as needed */
+  height: 16px; /* Adjust height for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Light track background */
+  border-left: 4px solid #000000; /* Black border for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* Solid black thumb */
+  box-shadow: 2px 2px 0px 0px #000000; /* Sharp offset shadow */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333333; /* Darker grey on hover */
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1; /* Match track background */
+  border: 2px solid #000000; /* Match track border */
+}
+
+/* Scoped styles for the component */
+.neo-scrollbar::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+.neo-scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border: 2px solid #000000;
+}
+
+.neo-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #f1f1f1;
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.neo-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #333333;
+}
+
+.neo-scrollbar::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+  border: 2px solid #000000;
+}
+
